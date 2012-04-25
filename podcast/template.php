@@ -17,6 +17,7 @@ function podcast_preprocess_page(&$variables) {
 		t('You are queer'),
 		t('Thank you for visiting us'),
 		t('Stop being stupid!'),
+		t('Psst...Come on, just log in'),
 	);
 
 	$slogans = $slogans[array_rand($slogans)];
