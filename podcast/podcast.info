@@ -1,0 +1,21 @@
+name = Podcast Theme
+core = 7.x
+description = This theme is to be used for the Podcast Site
+version = 7.x-1.1
+
+stylesheets[all][] = includes/style.css
+
+scripts[] = includes/js/maxheight.js
+scripts[] = includes/js/jquery-1.4.2.min.js
+scripts[] = includes/js/cufon-yui.js
+scripts[] = includes/js/cufon-replace.js
+scripts[] = includes/js/Myriad_Pro_300.font.js
+scripts[] = includes/js/Myriad_Pro_400.font.js
+
+regions[header] = Header
+regions[content] = Content
+regions[left_sidebar] = Left Sidebar
+regions[page_top] = Page Top
+regions[page_bottom] = Page Bottom
+regions[footer] = Footer
+regions[help] = Help
