@@ -15,7 +15,7 @@ function podcast_preprocess_page(&$variables) {
 	$slogans = array(
 		t('No Homo!'),
 		t('You are queer'),
-		t('You know how I know you&rsquo;re gay?'),
+		t('Thank you for visiting us'),
 		t('Stop being stupid!'),
 	);
 
