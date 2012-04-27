@@ -13,10 +13,10 @@
 function podcast_preprocess_page(&$variables) {
 
 	$slogans = array(
-		t('No Homo!'),
+		t('Make sure you check out our podcast'),
 		t('Time to see things'),
 		t('Thank you for visiting us'),
-		t('Stop being stupid!'),
+		t('Dont forget to say hello!'),
 		t('Psst...Come on, just log in'),
 	);
 
@@ -29,7 +29,7 @@ function podcast_preprocess_page(&$variables) {
 		$variables['login_message'] = t('Welcome @username, click here to <a href="/user/logout">logout</a>', array('@username' => $variables['user']->name));
 	}
 	else {
-		$variables['login_message'] = t('Stop being gay and <a href="/user/login">login</a>');
+		$variables['login_message'] = t('Put down the twinkie! Its time to <a href="/user/login">login</a>');
 	}
 
 	#kpr($variables);
